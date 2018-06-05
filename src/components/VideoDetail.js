@@ -19,8 +19,8 @@ import React, { Fragment } from "react";
           allowFullScreen
         />
       </div>
-      <h2>Video Title Goes Here</h2>
-      <p>Video Description Goes here</p>
+      <h2>{selectedVideo.snippet.title}</h2>
+      <p>{selectedVideo.snippet.description}</p>
     </Fragment>
   );
 };
